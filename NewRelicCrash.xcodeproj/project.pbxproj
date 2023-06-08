@@ -103,6 +103,7 @@
 				3B8D1D8E2A321D83004CE6F5 /* Sources */,
 				3B8D1D8F2A321D83004CE6F5 /* Frameworks */,
 				3B8D1D902A321D83004CE6F5 /* Resources */,
+				A7F6B7942A8EB5594851CD88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A7F6B7942A8EB5594851CD88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewRelicCrash/Pods-NewRelicCrash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewRelicCrash/Pods-NewRelicCrash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewRelicCrash/Pods-NewRelicCrash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CA048F00834D422AC86A268F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

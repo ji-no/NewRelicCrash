@@ -1,3 +1,38 @@
-PODFILE CHECKSUM: fae615a7e5e51fce4593d0f0da0d048ee2741fb4
+PODS:
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxWebKit (2.0.1):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+
+DEPENDENCIES:
+  - RxWebKit (from `https://github.com/RxSwiftCommunity/RxWebKit.git`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxWebKit:
+    :git: https://github.com/RxSwiftCommunity/RxWebKit.git
+
+CHECKOUT OPTIONS:
+  RxWebKit:
+    :commit: 6225dd5792fc8010d2399814c89a3683a4c87ec6
+    :git: https://github.com/RxSwiftCommunity/RxWebKit.git
+
+SPEC CHECKSUMS:
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxWebKit: 350129c3969a3d330d2a7343fdb8a6904edf0e49
+
+PODFILE CHECKSUM: 8af373b20d0663c8baa5e722b47af4c57408e6b8
 
 COCOAPODS: 1.12.1

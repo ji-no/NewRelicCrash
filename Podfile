@@ -6,5 +6,6 @@ target 'NewRelicCrash' do
   use_frameworks!
 
   # Pods for NewRelicCrash
+  pod 'RxWebKit', :git => 'https://github.com/RxSwiftCommunity/RxWebKit.git'
 
 end
