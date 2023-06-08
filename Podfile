@@ -7,5 +7,6 @@ target 'NewRelicCrash' do
 
   # Pods for NewRelicCrash
   pod 'RxWebKit', :git => 'https://github.com/RxSwiftCommunity/RxWebKit.git'
+  pod 'NewRelicAgent', '7.4.3'
 
 end

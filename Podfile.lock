@@ -1,4 +1,5 @@
 PODS:
+  - NewRelicAgent (7.4.3)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -10,10 +11,12 @@ PODS:
     - RxSwift (~> 6.0)
 
 DEPENDENCIES:
+  - NewRelicAgent (= 7.4.3)
   - RxWebKit (from `https://github.com/RxSwiftCommunity/RxWebKit.git`)
 
 SPEC REPOS:
   trunk:
+    - NewRelicAgent
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -28,11 +31,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/RxSwiftCommunity/RxWebKit.git
 
 SPEC CHECKSUMS:
+  NewRelicAgent: 368663f164e1d27f58f11a99e96eabd4aa2e6ccd
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxWebKit: 350129c3969a3d330d2a7343fdb8a6904edf0e49
 
-PODFILE CHECKSUM: 8af373b20d0663c8baa5e722b47af4c57408e6b8
+PODFILE CHECKSUM: 7aba1c591dccb2f07bc014a46eca5afb34897752
 
 COCOAPODS: 1.12.1
